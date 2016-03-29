@@ -3,44 +3,48 @@
 <head>
   <title>Homepage</title>
   <script>
-	function show(shown) {
-	var a = document.querySelectorAll('#container > div'); // get all children within container
-	console.log(a);
+	function show(shown, element) {	
+	var a = document.querySelectorAll('#container > div'); // get all children within container	
 	for (var i = 0; i<a.length; i++){ // loop over the elements		
-		document.getElementById(a[i].id).style.display='none';		
+		a[i].style.display='none';		
 	}
 	document.getElementById(shown).style.display='table';	
+	var a = document.querySelectorAll('ul.top li'); // get all children within container		
+	for (var i = 0; i<a.length; i++){ // loop over the elements	
+		console.log(a[i]);	
+		a[i].style.	backgroundColor='#888888';
+	}	
+	element.style.backgroundColor='#2E6098';
 	return false;
-}
+}	
 </script>
 </head>
 <body>
 	<div class="top-panel">	
 		<ul class="top">
-			<li><a href="#" onclick="return show('Page1');">Home</a></li>
-			<li><a href="#" onclick="return show('Page2');">Other</a></li>
-			<li><a href="#" onclick="return show('Page3');">Sport</a></li>
+			<li id="active" onclick="show('Home', this);"><a href="#">Home</a></li>
+			<li onclick="return show('Other', this);"><a href="#">Other</a></li>
+			<li onclick="return show('Sport', this);"><a href="#">Sport</a></li>
 		</ul>
 	</div>  
 	<div id="container">
-	<div class="table" id="Page1">
+	<div class="table" id="Home">
     <ul class="icons"> 
 	  <li><a href="https://mail.google.com"><img src="./icons/gmail.png"></a></li>
 	  <li><a href="https://www.facebook.com/"><img src="./icons/facebook.png"></a></li>
 	  <li><a href="https://www.youtube.com/feed/subscriptions"><img src="./icons/youtube.png"></a></li>
 	  <li><a href="http://feedly.com/index.html"><img src="./icons/feedly.png"></a></li>
-	  <li><a href="http://getpocket.com/a/queue/list/"><img src="./icons/pocket.png"></a></li>      
+	  <li><a href="http://getpocket.com/a/queue/list/"><img src="./icons/pocket.png"></a></li> 
+	  <li><a href="https://app.simplenote.com/"><img src="./icons/simplenote.png"></a></li>
+	  <li><a href="https://www.evernote.com/Home.action"><img src="./icons/evernote.png"></a></li>
+	  <li><a href="https://calendar.google.com/calendar/render"><img src="./icons/calendar.png"></a></li>
+	  <li><a href="http://spojeni.dpp.cz/"><img src="./icons/dpp.png"></a></li>
+	  <li><a href="https://trello.com/"><img src="./icons/trello.png"></a></li>     
     </ul>    
     </div> 
-    <div id="Page2" style="display:none">
-    <p>
-    Test Page 2
-    </p>
+    <div id="Other" style="display:none">    
     </div> 
-    <div id="Page3" style="display:none">
-    <p>
-    Test Page 3
-    </p>
+    <div id="Sport" style="display:none">    
     </div> 
     </div>
   <link rel="stylesheet" type="text/css" href="style.css">

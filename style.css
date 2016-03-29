@@ -31,7 +31,7 @@ a:hover, a:active, a:focus {
   
  .top-panel {
 	background-color: #fff;
-    height: 5%;
+    height: 50px;
     width: 100%;
     position: absolute;
     display: inline-block;
@@ -51,20 +51,24 @@ a:hover, a:active, a:focus {
 }
 	ul.top li{
 	display:inline;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
 	border: 0px solid #000000;
 	background-color:rgba(136,136,136,1);
 	margin: 5px;
-	padding: 5px;	
+	padding: 5px 15px;
+	margin: 0px 5px;	
+	}
+	
+	ul.top li#active{
+	background-color:#2E6098;
 	}
 	
 	ul.top li a{
 	color: #fff;
 	font-family: sans-serif;
-    text-decoration: none;
-    cursor: auto;
+    text-decoration: none;    
 	
 	}
 
