@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="youtube-logo.svg"
+   inkscape:export-filename="/home/viliam/Documents/Projects/Icons/youtube2.png"
+   inkscape:export-xdpi="90.000092"
+   inkscape:export-ydpi="90.000092">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-13.595064"
+     inkscape:cy="184.36837"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36218)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#d52323;fill-opacity:1;stroke:none"
+       id="path2985"
+       sodipodi:cx="255.71428"
+       sodipodi:cy="293.42856"
+       sodipodi:rx="164.28572"
+       sodipodi:ry="164.28572"
+       d="m 420,293.42856 a 164.28572,164.28572 0 1 1 -328.571442,0 164.28572,164.28572 0 1 1 328.571442,0 z"
+       transform="matrix(1.4913043,0,0,1.4913043,-125.3478,358.77091)" />
+    <path
+       style="fill:#f5f4f4;fill-opacity:1"
+       d="m 255.98434,676.15962 c -26.5488,10e-4 -53.125,0.21827 -65.21875,0.625 -33.71778,1.13392 -55.35728,2.38463 -62.5,3.625 -7.85302,1.36372 -14.54789,4.36896 -20.6875,9.28125 -8.152847,6.5231 -12.755507,14.81291 -16.531247,29.90625 -3.10846,12.42596 -5.02788,41.70991 -5.03125,76.75 -0.003,36.80952 1.93293,64.24733 5.53125,78.125 2.89255,11.15568 6.3526,18.47927 11.124997,23.6875 7.94737,8.67315 17.0392,12.55014 34.34375,14.65625 26.53845,3.22996 116.76619,4.75436 179.25,3.03125 30.78067,-0.84883 53.95027,-2.04628 63.875,-3.28125 11.9955,-1.49264 20.04382,-5.24725 27.625,-12.90625 6.24744,-6.31155 9.42512,-12.60547 12.6875,-25.1875 3.58236,-13.81612 5.51696,-41.24538 5.53125,-78.125 0.0134,-34.47151 -1.94898,-64.42786 -5.03125,-76.75 -3.77087,-15.07503 -8.36559,-23.40416 -16.53125,-29.9375 -6.10882,-4.88765 -12.81616,-7.88853 -20.65625,-9.25 -7.1082,-1.23437 -28.57146,-2.49721 -62.75,-3.65625 -11.96105,-0.4056 -38.48245,-0.59497 -65.03125,-0.59375 z m -34.96875,71.96875 c 0.27117,-0.16759 8.20242,3.72667 17.625,8.65625 9.42258,4.92957 29.05,15.18781 43.625,22.8125 14.575,7.62469 26.78125,14.09423 27.125,14.375 1.03915,0.84876 0.75344,1.18267 -2.5,2.90625 -1.71875,0.91055 -21.62973,11.73473 -44.25,24.0625 -22.62027,12.32777 -41.22235,22.40625 -41.3125,22.40625 -0.0901,0 -0.31666,-0.12917 -0.5,-0.3125 -0.55585,-0.55586 -0.36987,-94.56177 0.1875,-94.90625 z"
+       id="path4470"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
