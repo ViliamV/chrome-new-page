@@ -80,7 +80,7 @@ body {
     -moz-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
     box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
 }
-@media screen and (max-aspect-ratio: 1/1) { 
+@media screen and (max-aspect-ratio: 1/1) {
     .personal {
         display: none;
     }
@@ -103,12 +103,6 @@ ul li a{
     text-decoration: none;
     color: #263238;
 }
-
-
-
-
-
-    
 
 a:hover, a:active, a:focus {
   outline: none; }
