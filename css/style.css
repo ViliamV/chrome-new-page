@@ -26,9 +26,7 @@ body {
 }
 .icon img {
     width: 100%;
-    -webkit-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
-    -moz-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
-    box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.16), 0px 5px 8px 0px rgba(0,0,0,0.23);
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
     border-radius: 200px;
@@ -41,9 +39,7 @@ body {
     width: 90%;
     max-width: 100vh;
     background: #eceff1;
-    -webkit-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
-    -moz-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
-    box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16), 0px 2px 5px 0px rgba(0,0,0,0.23);
 }
 .column {
     width: 31.33%;
@@ -76,9 +72,7 @@ body {
     -moz-border-radius: 50px;
     border-radius: 50px;
     z-index: 2;
-    -webkit-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
-    -moz-box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
-    box-shadow: 5px 5px 20px 0px rgba(55,71,79,1);
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.16), 0px 5px 8px 0px rgba(0,0,0,0.23);
 }
 @media screen and (max-aspect-ratio: 1/1) {
     .personal {
