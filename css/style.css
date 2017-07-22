@@ -34,7 +34,7 @@ body {
 }
 .main {
     display: flex;
-    flex-direction: flex-row;
+    flex-direction: row;
     width: 80%;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -45,7 +45,7 @@ body {
     justify-content: flex-start;
     width: 47.5%;
     max-width: 100vh;
-    background: #f3f3e7;
+    background: #ffffff;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16), 0px 2px 5px 0px rgba(0,0,0,0.23);
 }
 .column {
@@ -65,7 +65,7 @@ body {
     right: 0;
     bottom: 0;
     height: 60%;
-    background: #e2e2ce;
+    background: #f3f3e7;
     z-index: -2;
 }
 .personal {
@@ -84,6 +84,16 @@ body {
 @media screen and (max-aspect-ratio: 1/1) {
     .personal {
         display: none;
+    }
+    .todoist {
+        display: none;
+    }
+    .main {
+        flex-direction: column;
+        width: 90%;
+    }
+    .container {
+        width: 100%;
     }
 }
 h1 {
