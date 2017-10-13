@@ -49,7 +49,7 @@ body {
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16), 0px 2px 5px 0px rgba(0,0,0,0.23);
 }
 .column {
-    width: 31.33%;
+    width: 48%;
     min-width: 170px;
     display: flex;
     flex-direction: column;
